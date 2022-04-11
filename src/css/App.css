@@ -1,0 +1,30 @@
+.logo-container {
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  max-height: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-containers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 0;
+}
+
+.input-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+button {
+  padding: 12px;
+  margin-top: 24px;
+}
